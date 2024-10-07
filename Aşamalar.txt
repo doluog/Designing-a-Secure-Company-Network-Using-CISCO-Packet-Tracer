@@ -1,0 +1,27 @@
+Tüm cihazlar için temel ayarlar + SSH + SSH için Standart ACL: Tüm ağ cihazlarının temel ayarları yapılır ve güvenli uzaktan yönetim için SSH yapılandırılır. Ayrıca SSH erişimini denetlemek için Standart Erişim Kontrol Listeleri (ACL) uygulanır.
+
+VLAN atamaları: L2 ve L3 anahtarlarda tüm erişim ve trunk portlarına VLAN atamaları yapılır.
+
+STP ve BPDUguard yapılandırmaları: Tüm erişim portlarında köprü protokolü (STP) ve BPDUguard etkinleştirilir.
+
+EtherChannel yapılandırması: Birden fazla fiziksel bağlantı birleştirilerek yüksek bant genişliği ve hata toleransı sağlanır.
+
+Subnetting ve IP adresleme: Ağ bölümlendirilir ve her segment için IP adresleri atanır.
+
+HSRP ve Inter-VLAN yönlendirme: Yönlendiriciler arasında yedekleme (HSRP) ve VLAN'lar arası yönlendirme yapılandırılır. DHCP için yardımcı adresler atanır.
+
+Statik IP atamaları: DMZ ve sunucu çiftliğindeki cihazlara statik IP adresleri atanır.
+
+DHCP sunucu yapılandırmaları: Dinamik IP atamaları için DHCP sunucusu yapılandırılır.
+
+OSPF: Yönlendiriciler, anahtarlar ve güvenlik duvarlarında OSPF (Open Shortest Path First) dinamik yönlendirme protokolü yapılandırılır.
+
+Güvenlik duvarı yapılandırmaları: Güvenlik duvarı arayüzleri için güvenlik bölgeleri ve güvenlik seviyeleri belirlenir.
+
+Güvenlik duvarı denetim politikası: Trafik denetimi için güvenlik duvarı politikaları yapılandırılır.
+
+Kablosuz ağ yapılandırmaları: Kablosuz ağ ayarları ve güvenliği yapılandırılır.
+
+VoIP yapılandırmaları: Sesli iletişim için VoIP ayarları yapılır.
+
+Doğrulama ve test: Yapılan tüm ayarların doğrulaması ve test edilmesi.
